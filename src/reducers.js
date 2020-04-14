@@ -93,7 +93,6 @@ export default combineReducers({
 })
 
 export const getEpisodes = state => { 
-    console.log('state', state)
     return state.episodes 
 }
 
